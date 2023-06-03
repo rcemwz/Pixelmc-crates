@@ -1,0 +1,46 @@
+Crate:
+  identifier: ShinyLegendary
+  display: '&3&lRandom Shiny Legendary'
+  open-commands:
+  
+  block: PIXELMON_UNOWN_BLOCK_L
+  spin time: 2500
+  spin: NONE
+Key:
+  name: '&3&lShinyLegendaryCrate Key'
+  item: TRIPWIRE_HOOK
+  glow: true
+  lore:
+  - '&7Use this at the nearest'
+  - '&7Crate to open!'
+pouch:
+  item: PIXELMON_BEAST_CHEST
+  glow: true
+  name: '&3&lRandom Shiny Legendary'
+  lore:
+  - '&7Place this item to Recieve a Random Shiny Legendary Pokemon'
+hologram:
+  items:
+    key:
+      identifier: item_key
+      item: TRIPWIRE_HOOK
+      glow: true
+  lines:
+  - '{crate_display}'
+  - '&7(Right Click to Open)'
+  - '&7(Left Click to Preview)'
+Prizes:
+  Random Shiny Legend:
+    chance: 50.0
+    display:
+      material: PIXELMON_COMET_SHARD
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lLEGENDARY!
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1x &b&lRandom Legendary!'
+    - pokegive %player% random shiny legendary 1

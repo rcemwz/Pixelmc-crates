@@ -1,0 +1,474 @@
+# 
+#                                      DEFAULT CRATE                                      #
+Crate:
+  identifier: VoteCrate
+  display: '&9&lVoteCrate'
+  block: CHEST
+  spin: CSGO
+  spin time: 2500
+Key:
+  name: §3§lCrate Key
+  item: PIXELMON_BASEMENT_KEY_SILVER
+  glow: true
+  lore:
+  - §7Use this at the nearest
+  - §7Crate to open!
+  data: 0
+  amount: 1
+  unbreakable: false
+pouch:
+  item: ENDER_CHEST
+  glow: false
+  name: '&3&lDefault Pouch'
+  lore:
+  - '&7Click on this item to open pouch'
+hologram:
+  items:
+    key:
+      identifier: item_key
+      item: TRIPWIRE_HOOK
+      glow: true
+  lines:
+
+Prizes:
+  pokeball x8:
+    chance: 4.0
+    display:
+      item: PIXELMON_PIXELMON_SPRITE
+      glow: false
+      amount: 1
+      name: §b§lPokeballs x8
+      lore:
+      - '§9Chance: §e4.0'
+      data: 0
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l8&b&lx Pokeballs'
+    - minecraft:give %player% pixelmon:poke_ball 8
+    give item: false
+  pokeball x16:
+    chance: 3.0
+    display:
+      item: PIXELMON_PIXELMON_SPRITE
+      glow: false
+      amount: 1
+      name: §b§lPokeballs x16
+      lore:
+      - '§9Chance: §e3.0'
+      data: 0
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l16&b&lx Pokeballs'
+    - minecraft:give %player% pixelmon:poke_ball 16
+    give item: false
+  greatball x8:
+    chance: 3.0
+    display:
+      item: PIXELMON_GREAT_BALL
+      glow: false
+      amount: 1
+      name: §b§lGreatballs x8
+      lore:
+      - '§aChance: §e3.0'
+      data: 0
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l8&b&lx GreatBalls'
+    - minecraft:give %player% pixelmon:great_ball 8
+    give item: false
+  greatball x16:
+    chance: 3.0
+    display:
+      item: PIXELMON_GREAT_BALL
+      glow: false
+      amount: 1
+      name: §b§lGreatballs x16
+      lore:
+      - '§aChance: §e3.0'
+      data: 0
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l16&b&lx GreatBalls'
+    - minecraft:give %player% pixelmon:great_ball 16
+    give item: false
+  ultraball x8:
+    chance: 3.0
+    display:
+      item: PIXELMON_ULTRA_BALL
+      data: 0
+      glow: false
+      amount: 1
+      name: §b§lUltraballs x8
+      lore:
+      - '§aChance: §e3.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l8&b&lx Ultraballs'
+    - minecraft:give %player% pixelmon:ultra_ball 8
+    give item: false
+  ultraball x16:
+    chance: 3.0
+    display:
+      item: PIXELMON_ULTRA_BALL
+      data: 0
+      glow: false
+      amount: 1
+      name: §b§lUltraballs x16
+      lore:
+      - '§aChance: §e3.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l16&b&lx Ultraballs'
+    - minecraft:give %player% pixelmon:ultra_ball 16
+    give item: false
+  Duskball x8:
+    chance: 3.0
+    display:
+      item: PIXELMON_DUSK_BALL
+      data: 0
+      glow: false
+      amount: 1
+      name: §b§lDuskballs x8
+      lore:
+      - '§aChance: §e3.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l8&b&lx Duskballs'
+    - minecraft:give %player% pixelmon:dusk_ball 8
+    give item: false
+  Duskball x16:
+    chance: 2.0
+    display:
+      item: PIXELMON_DUSK_BALL
+      data: 0
+      glow: false
+      amount: 1
+      name: §b§lDuskballs x16
+      lore:
+      - '§aChance: §e2.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l16&b&lx Duskballs'
+    - minecraft:give %player% pixelmon:dusk_ball 16
+    give item: false
+  Quickball x8:
+    chance: 3.0
+    display:
+      item: PIXELMON_QUICK_BALL
+      data: 0
+      glow: false
+      amount: 1
+      name: §b§lQuickballs x8
+      lore:
+      - '§aChance: §e3.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l8&b&lx Quickballs'
+    - minecraft:give %player% pixelmon:quick_ball 8
+    give item: false
+  Quickball x16:
+    chance: 2.0
+    display:
+      item: PIXELMON_QUICK_BALL
+      data: 0
+      glow: false
+      amount: 1
+      name: §b§lQuickballs x16
+      lore:
+      - '§aChance: §e2.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l16&b&lx Quickballs'
+    - minecraft:give %player% pixelmon:quick_ball 16
+    give item: false
+  Masterball:
+    chance: 5.0
+    display:
+      item: PIXELMON_MASTER_BALL
+      data: 0
+      glow: false
+      amount: 1
+      name: §b§lMasterball
+      lore:
+      - '§aChance: §e5.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l1&b&lx Masterball'
+    - minecraft:give %player% pixelmon:master_ball 1
+    give item: false
+
+  rarecandy x4:
+    chance: 4.0
+    display:
+      material: PIXELMON_RARE_CANDY
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lRareCandy x4
+      lore:
+      - '§9Chance: §e4.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l4&b&lx Rare Candy'
+    - minecraft:give %player% pixelmon:rare_candy 4
+    give item: false
+  rarecandy x8:
+    chance: 3.0
+    display:
+      material: PIXELMON_RARE_CANDY
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lRareCandy x8
+      lore:
+      - '§9Chance: §e3.0'
+      unbreakable: false
+    commands:
+    - 'broadcast %player% has won a &a&l8 RARECANDY &bfrom the &cVote crate! &bCheck &a/vote &bfor your chance to win!'
+    - '[msg]&aYou have won &e&l8&b&lx Rare Candy'
+    - minecraft:give %player% pixelmon:rare_candy 8
+    give item: false
+  $1000:
+    chance: 3.0
+    display:
+      material: PIXELMON_RELIC_COPPER
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§l$1000
+      lore:
+      - '§9Chance: §e3.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l$1000'
+    - eco give %player% 1000
+    give item: false
+  $2500:
+    chance: 3.0
+    display:
+      material: PIXELMON_RELIC_SILVER
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§l$2500
+      lore:
+      - '§9Chance: §e3.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l$2500'
+    - eco give %player% 2500
+    give item: false
+  $5000:
+    chance: 2.0
+    display:
+      material: PIXELMON_RELIC_SILVER
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§l$5000
+      lore:
+      - '§9Chance: §e2.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l$5000'
+    - eco give %player% 5000
+    give item: false
+  $10000:
+    chance: 2.0
+    display:
+      material: PIXELMON_RELIC_GOLD
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§l$10000
+      lore:
+      - '§9Chance: §e2.0'
+      unbreakable: false
+    commands:
+    - 'broadcast %player% has won a &a&l$10000 &bfrom the &cVote crate! &bCheck &a/vote &bfor your chance to win!'
+    - '[msg]&aYou have won &e&l$10000'
+    - eco give %player% 10000
+    give item: false
+  500 claimblocks:
+    chance: 3.0
+    display:
+      material: GOLDEN_SHOVEL
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§l500 ClaimBlocks
+      lore:
+      - '§9Chance: §e3.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &5500 Claim Blocks'
+    - adjustclaimblocks %player% 500
+    give item: false
+  1000 claimblocks:
+    chance: 3.0
+    display:
+      material: GOLDEN_SHOVEL
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§l1000 ClaimBlocks
+      lore:
+      - '§9Chance: §e3.0'
+      unbreakable: false
+    commands:
+    - 'broadcast %player% has won a &a&l1000 CLAIMBLOCKS &bfrom the &cVote crate! &bCheck &a/vote &bfor your chance to win!'
+    - '[msg]&aYou have won &51000 Claim Blocks'
+    - adjustclaimblocks %player% 1000
+    give item: false
+  Megastone Pouch:
+    chance: 5.0
+    display:
+      material: PIXELMON_ABOMASITE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lMegastone Pack!
+      lore:
+      - '§9Chance: §e5.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &5A Megastone Pack!'
+    - crates givepouch %player% MegaStones 1
+    give item: false
+  Zmoves Pouch:
+    chance: 5.0
+    display:
+      material: PIXELMON_BUGINIUM_Z
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lZ-Moves Pack!
+      lore:
+      - '§9Chance: §e5.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &5A Z-Moves Pack!'
+    - crates givepouch %player% Zmoves 1
+    give item: false
+  Mint Seed:
+    chance: 5.0
+    display:
+      material: PIXELMON_MINT_SEEDS
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lMint Seed
+      lore:
+      - '§9Chance: §e5.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l1&b&lx Mint Seed!'
+    - minecraft:give %player% Pixelmon:mint_seeds 1
+    give item: false
+  4 silver hourglasses:
+    chance: 4.0
+    display:
+      material: PIXELMON_SILVER_HOURGLASS
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§l4 SILVER HOURGLASSES
+      lore:
+      - '§9Chance: §e4.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l4&b&lx Silver Hourglasses'
+    - minecraft:give %player% pixelmon:silver_hourglass 4
+    give item: false
+  8 silver hourglasses:
+    chance: 2.0
+    display:
+      material: PIXELMON_SILVER_HOURGLASS
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§8 SILVER HOURGLASSES
+      lore:
+      - '§9Chance: §e2.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l8&b&lx Silver Hourglasses'
+    - minecraft:give %player% pixelmon:silver_hourglass 8
+    give item: false
+  3 gold hourglasses:
+    chance: 1.0
+    display:
+      material: PIXELMON_GOLD_HOURGLASS
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§l3 GOLD HOURGLASSES
+      lore:
+      - '§9Chance: §e1.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l3&b&lx Gold Hourglasses'
+    - minecraft:give %player% pixelmon:gold_hourglass 3
+    give item: false
+  1 gold hourglasses:
+    chance: 2.0
+    display:
+      material: PIXELMON_GOLD_HOURGLASS
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§l1 GOLD HOURGLASS
+      lore:
+      - '§9Chance: §e2.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l1&b&lx Gold Hourglass'
+    - minecraft:give %player% pixelmon:gold_hourglass 1
+    give item: false
+
+  Random Shiny:
+    chance: 3.0
+    display:
+      material: PIXELMON_STAR_PIECE
+      data: 0
+      amount: 1
+      glow: true
+      display: §6§lRandom Shiny Pokemon!
+      lore:
+      - '§aChance: §e3.0'
+      unbreakable: false
+    commands:
+    - 'broadcast %player% has won a &a&lRANDOM SHINY &bfrom the &cVote crate! &bCheck &a/vote &bfor your chance to win!'
+    - '[msg]&aYou have won a &eSHINY &b&lPokemon Crate!'
+    - crates givepouch %player% Shiny 1
+
+  Pro Key:
+    chance: 5.0
+    display:
+      material: PIXELMON_SECRET_KEY
+      data: 0
+      amount: 1
+      glow: true
+      display: §6§lPro Key!
+      lore:
+      - '§aChance: §e5.0'
+      unbreakable: false
+    commands:
+    - 'broadcast %player% has won a &a&lPRO KEY &bfrom the &cVote crate! &bCheck &a/vote &bfor your chance to win!'
+    - '[msg]&aYou have won a &e1x &b&lPro Key!'
+    - crates give %player% ProCrate 1
+  RandoPoke:
+    chance: 5.0
+    display:
+      material: PIXELMON_POKE_DISPLAY
+      data: 0
+      amount: 1
+      glow: true
+      display: §6§lRandom Pokemon!
+      lore:
+      - '§aChance: §e5.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won a &e1x &b&lRandom Pokemon!'
+    - crates givepouch %player% Pokemon 1
+    
