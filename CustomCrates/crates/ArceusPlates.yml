@@ -1,0 +1,303 @@
+Crate:
+  identifier: ArceusPlates
+  display: '&3&lArceusPlates'
+  open-commands:
+  
+  block: PIXELMON_UNOWN_BLOCK_A
+  spin: CSGO
+  spin time: 2500
+Key:
+  name: '&3&lArceusPlates Key'
+  item: TRIPWIRE_HOOK
+  glow: true
+  lore:
+  - '&7Use this at the nearest'
+  - '&7Crate to open!'
+pouch:
+  item: PIXELMON_RED_CARD
+  glow: true
+  name: '&3&lArceus Plates Pouch'
+  lore:
+  - '&7Place this item to Recieve a Random Arceus Plate'
+hologram:
+  items:
+    key:
+      identifier: item_key
+      item: TRIPWIRE_HOOK
+      glow: true
+  lines:
+  - '{crate_display}'
+  - '&7(Right Click to Open)'
+  - '&7(Left Click to Preview)'
+Prizes:
+  Meadowplate:
+    chance: 50.0
+    display:
+      material: PIXELMON_MEADOW_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lMeadow Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lMeadow Plate!'
+    - minecraft:give %player% pixelmon:meadow_plate 1
+    give item: false
+
+  Flameplate:
+    chance: 50.0
+    display:
+      material: PIXELMON_FLAME_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lFlame Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lFlame Plate!'
+    - minecraft:give %player% pixelmon:flame_plate 1
+    give item: false
+  
+  Splashlate:
+    chance: 50.0
+    display:
+      material: PIXELMON_SPLASH_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lSplash Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lSplash Plate!'
+    - minecraft:give %player% pixelmon:splash_plate 1
+    give item: false
+
+  Skylate:
+    chance: 50.0
+    display:
+      material: PIXELMON_SKY_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lSky Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lSky Plate!'
+    - minecraft:give %player% pixelmon:sky_plate 1
+    give item: false
+
+  Insectplate:
+    chance: 50.0
+    display:
+      material: PIXELMON_INSECT_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lInsect Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lInsect Plate!'
+    - minecraft:give %player% pixelmon:insect_plate 1
+    give item: false
+
+  Toxicplate:
+    chance: 50.0
+    display:
+      material: PIXELMON_TOXIC_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lToxic Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lToxic Plate!'
+    - minecraft:give %player% pixelmon:toxic_plate 1
+    give item: false
+
+  Zapplate:
+    chance: 50.0
+    display:
+      material: PIXELMON_ZAP_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lZap Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lZap Plate!'
+    - minecraft:give %player% pixelmon:zap_plate 1
+    give item: false
+
+  Mindplate:
+    chance: 50.0
+    display:
+      material: PIXELMON_MIND_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lMind Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lMind Plate!'
+    - minecraft:give %player% pixelmon:mind_plate 1
+    give item: false
+
+  Stoneplate:
+    chance: 50.0
+    display:
+      material: PIXELMON_STONE_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lMeadow Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lStone Plate!'
+    - minecraft:give %player% pixelmon:stone_plate 1
+    give item: false
+
+  Earthplate:
+    chance: 50.0
+    display:
+      material: PIXELMON_EARTH_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lEarth Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lEarth Plate!'
+    - minecraft:give %player% pixelmon:earth_plate 1
+    give item: false
+
+  Dreadplate:
+    chance: 50.0
+    display:
+      material: PIXELMON_DREAD_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lDread Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lDread Plate!'
+    - minecraft:give %player% pixelmon:dread_plate 1
+    give item: false
+
+  Spookywplate:
+    chance: 50.0
+    display:
+      material: PIXELMON_SPOOKY_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lSpooky Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lSpooky Plate!'
+    - minecraft:give %player% pixelmon:spooky_plate 1
+    give item: false
+
+  Ironplate:
+    chance: 50.0
+    display:
+      material: PIXELMON_IRON_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lIron Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lIron Plate!'
+    - minecraft:give %player% pixelmon:iron_plate 1
+    give item: false
+
+  Fistplate:
+    chance: 50.0
+    display:
+      material: PIXELMON_FIST_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lFist Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lFist Plate!'
+    - minecraft:give %player% pixelmon:fist_plate 1
+    give item: false
+
+  Icicleplate:
+    chance: 50.0
+    display:
+      material: PIXELMON_ICICLE_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lIcicle Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lIcicle Plate!'
+    - minecraft:give %player% pixelmon:icicle_plate 1
+    give item: false
+
+  Dracoplate:
+    chance: 50.0
+    display:
+      material: PIXELMON_DRACO_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lDraco Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lDraco Plate!'
+    - minecraft:give %player% pixelmon:draco_plate 1
+    give item: false
+
+  Pixieplate:
+    chance: 50.0
+    display:
+      material: PIXELMON_PIXIE_PLATE
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§lPixie Plate
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e1 &b&lPixie Plate!'
+    - minecraft:give %player% pixelmon:pixie_plate 1
+    give item: false
