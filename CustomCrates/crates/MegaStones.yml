@@ -1,0 +1,737 @@
+Crate:
+  identifier: MegaStones
+  display: '&3&lRandom MegaStone'
+  open-commands:
+  
+  block: GOLD_BLOCK
+  spin: CSGO
+  spin time: 2500
+Key:
+  name: '&3&lMegaStones Key'
+  item: TRIPWIRE_HOOK
+  glow: true
+  lore:
+  - '&7Use this at the nearest'
+  - '&7Crate to open!'
+pouch:
+  item: PIXELMON_BIG_PEARL
+  glow: true
+  name: '&3&lMegaStones Pack'
+  lore:
+  - '&7Place this item to Recieve a Random MegaStone'
+hologram:
+  items:
+    key:
+      identifier: item_key
+      item: TRIPWIRE_HOOK
+      glow: true
+  lines:
+  - '{crate_display}'
+  - '&7(Right Click to Open)'
+  - '&7(Left Click to Preview)'
+Prizes:
+  Abomasite:
+    chance: 50.0
+    display:
+      material: PIXELMON_ABOMASITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Abomasite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lAbomsite'
+    - minecraft:give %player% pixelmon:abomasite 1
+    give item: false
+  Absolite:
+    chance: 50.0
+    display:
+      material: PIXELMON_ABSOLITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Absolite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lAbsolite'
+    - minecraft:give %player% pixelmon:absolite 1
+    give item: false
+  Aerodactylite:
+    chance: 50.0
+    display:
+      material: PIXELMON_AERODACTYLITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Aerodactylite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lAerodactylite'
+    - minecraft:give %player% pixelmon:aerodactylite 1
+    give item: false
+  Aggronite:
+    chance: 50.0
+    display:
+      material: PIXELMON_AGGRONITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Aggronite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lAggronite'
+    - minecraft:give %player% pixelmon:aggronite 1
+    give item: false
+  Alakazite:
+    chance: 50.0
+    display:
+      material: PIXELMON_ALAKAZITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Alakazite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lAlakazite'
+    - minecraft:give %player% pixelmon:alakazite 1
+    give item: false
+  Altarianite:
+    chance: 50.0
+    display:
+      material: PIXELMON_ALTARIANITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Altarianite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lAltarianite'
+    - minecraft:give %player% pixelmon:altarianite 1
+    give item: false
+  Ampharosite:
+    chance: 50.0
+    display:
+      material: PIXELMON_AMPHAROSITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Ampharosite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lAmpharosite'
+    - minecraft:give %player% pixelmon:ampharosite 1
+    give item: false
+  Audinite:
+    chance: 50.0
+    display:
+      material: PIXELMON_AUDINITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Audinite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lAudinite'
+    - minecraft:give %player% pixelmon:audinite 1
+    give item: false
+  Banettite:
+    chance: 50.0
+    display:
+      material: PIXELMON_BANETTITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Banettite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lBanettite'
+    - minecraft:give %player% pixelmon:banettite 1
+    give item: false
+  Beedrillite:
+    chance: 50.0
+    display:
+      material: PIXELMON_BEEDRILLITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Beedrillite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lBeedrillite'
+    - minecraft:give %player% pixelmon:beedrillite 1
+    give item: false
+  Blastoisinite:
+    chance: 50.0
+    display:
+      material: PIXELMON_BLASTOISINITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Blastoisinite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lBlastoisinite'
+    - minecraft:give %player% pixelmon:blastoisinite 1
+    give item: false
+  Blazikenite:
+    chance: 50.0
+    display:
+      material: PIXELMON_BLAZIKENITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Blazikenite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lBlazikenite'
+    - minecraft:give %player% pixelmon:blazikenite 1
+    give item: false
+  Cameruptite:
+    chance: 50.0
+    display:
+      material: PIXELMON_CAMERUPTITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Cameruptite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lCameruptite'
+    - minecraft:give %player% pixelmon:cameruptite 1
+    give item: false
+  Charizardite X:
+    chance: 50.0
+    display:
+      material: PIXELMON_CHARIZARDITE_X
+      data: 0
+      amount: 1
+      glow: true
+      display: Charizardite X
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lCharizardite X'
+    - minecraft:give %player% pixelmon:charizardite_x 1
+    give item: false
+  Charizardite Y:
+    chance: 50.0
+    display:
+      material: PIXELMON_CHARIZARDITE_Y
+      data: 0
+      amount: 1
+      glow: true
+      display: Charizardite Y
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lCharizardite Y'
+    - minecraft:give %player% pixelmon:charizardite_y 1
+    give item: false
+  Diancite:
+    chance: 50.0
+    display:
+      material: PIXELMON_DIANCITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Diancite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lDiancite'
+    - minecraft:give %player% pixelmon:diancite 1
+    give item: false
+  Galladite:
+    chance: 50.0
+    display:
+      material: PIXELMON_GALLADITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Galladite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lGalladite'
+    - minecraft:give %player% pixelmon:galladite 1
+    give item: false
+  Garchompite:
+    chance: 50.0
+    display:
+      material: PIXELMON_GARCHOMPITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Garchompite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lGarchompite'
+    - minecraft:give %player% pixelmon:garchompite 1
+    give item: false
+  Gardevoirite:
+    chance: 50.0
+    display:
+      material: PIXELMON_GARDEVOIRITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Gardevoirite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lGardevoirite'
+    - minecraft:give %player% pixelmon:gardevoirite 1
+    give item: false
+  Gengarite:
+    chance: 50.0
+    display:
+      material: PIXELMON_GENGARITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Gengarite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lGengarite'
+    - minecraft:give %player% pixelmon:gengarite 1
+    give item: false
+  Glalitite:
+    chance: 50.0
+    display:
+      material: PIXELMON_GLALITITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Glalitite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lGlalitite'
+    - minecraft:give %player% pixelmon:glalitite 1
+    give item: false
+  Gyaradosite:
+    chance: 50.0
+    display:
+      material: PIXELMON_GYARADOSITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Gyaradosite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lGyaradosite'
+    - minecraft:give %player% pixelmon:gyaradosite 1
+    give item: false
+  Heracronite:
+    chance: 50.0
+    display:
+      material: PIXELMON_HERACRONITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Heracronite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lHeracronite'
+    - minecraft:give %player% pixelmon:heracronite 1
+    give item: false
+  houndoominite:
+    chance: 50.0
+    display:
+      material: PIXELMON_HOUNDOOMINITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Houndoominite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lHoundoominite'
+    - minecraft:give %player% pixelmon:houndoominite 1
+    give item: false
+  kangaskhanite:
+    chance: 50.0
+    display:
+      material: PIXELMON_KANGASKHANITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Kangaskhanite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lKangaskhanite'
+    - minecraft:give %player% pixelmon:kangaskhanite 1
+    give item: false
+  latiasite:
+    chance: 50.0
+    display:
+      material: PIXELMON_LATIASITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Latiasite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lLatiasite'
+    - minecraft:give %player% pixelmon:latiasite 1
+    give item: false
+  latiosite:
+    chance: 50.0
+    display:
+      material: PIXELMON_LATIOSITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Latiosite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lLatiosite'
+    - minecraft:give %player% pixelmon:latiosite 1
+    give item: false
+  lopunnite:
+    chance: 50.0
+    display:
+      material: PIXELMON_LOPUNNITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Lopunnite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lLopunnite'
+    - minecraft:give %player% pixelmon:lopunnite 1
+    give item: false
+  lucarionite:
+    chance: 50.0
+    display:
+      material: PIXELMON_LUCARIONITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Lucarionite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lLucarionite'
+    - minecraft:give %player% pixelmon:lucarionite 1
+    give item: false
+  manectite:
+    chance: 50.0
+    display:
+      material: PIXELMON_MANECTITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Manectite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lManectite'
+    - minecraft:give %player% pixelmon:manectite 1
+    give item: false
+  mawilite:
+    chance: 50.0
+    display:
+      material: PIXELMON_MAWILITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Mawilite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lMawilite'
+    - minecraft:give %player% pixelmon:mawilite 1
+    give item: false
+  medichamite:
+    chance: 50.0
+    display:
+      material: PIXELMON_MEDICHAMITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Medichamite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lMedichamite'
+    - minecraft:give %player% pixelmon:medichamite 1
+    give item: false
+  metagrossite:
+    chance: 50.0
+    display:
+      material: PIXELMON_METAGROSSITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Metagrossite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lMetagrossite'
+    - minecraft:give %player% pixelmon:metagrossite 1
+    give item: false
+  mewtwonite_x:
+    chance: 50.0
+    display:
+      material: PIXELMON_MEWTWONITE_X
+      data: 0
+      amount: 1
+      glow: true
+      display: Mewtwonite X
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lMewtwonite X'
+    - minecraft:give %player% pixelmon:mewtwonite_x 1
+    give item: false
+  mewtwonite_y:
+    chance: 50.0
+    display:
+      material: PIXELMON_MEWTWONITE_Y
+      data: 0
+      amount: 1
+      glow: true
+      display: Mewtwonite Y
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lMewtwonite Y'
+    - minecraft:give %player% pixelmon:mewtwonite_y 1
+    give item: false
+  pidgeotite:
+    chance: 50.0
+    display:
+      material: PIXELMON_PIDGEOTITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Pidgeotite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lPidgeotite'
+    - minecraft:give %player% pixelmon:pidgeotite 1
+    give item: false
+  pinsirite:
+    chance: 50.0
+    display:
+      material: PIXELMON_PINSIRITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Pinsirite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lPinsirite'
+    - minecraft:give %player% pixelmon:pinsirite 1
+    give item: false
+  sablenite:
+    chance: 50.0
+    display:
+      material: PIXELMON_SABLENITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Sablenite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lSablenite'
+    - minecraft:give %player% pixelmon:sablenite 1
+    give item: false
+  salamencite:
+    chance: 50.0
+    display:
+      material: PIXELMON_SALAMENCITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Salamencite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lSalamencite'
+    - minecraft:give %player% pixelmon:salamencite 1
+    give item: false
+  sceptilite:
+    chance: 50.0
+    display:
+      material: PIXELMON_SCEPTILITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Sceptilite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lSceptilite'
+    - minecraft:give %player% pixelmon:sceptilite 1
+    give item: false
+  scizorite:
+    chance: 50.0
+    display:
+      material: PIXELMON_SCIZORITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Scizorite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lScizorite'
+    - minecraft:give %player% pixelmon:scizorite 1
+    give item: false
+  sharpedonite:
+    chance: 50.0
+    display:
+      material: PIXELMON_SHARPEDONITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Sharpedonite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lSharpedonite'
+    - minecraft:give %player% pixelmon:sharpedonite 1
+    give item: false
+  slowbronite:
+    chance: 50.0
+    display:
+      material: PIXELMON_SLOWBRONITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Slowbronite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lSlowbronite'
+    - minecraft:give %player% pixelmon:slowbronite 1
+    give item: false
+  steelixite:
+    chance: 50.0
+    display:
+      material: PIXELMON_STEELIXITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Steelixite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lSteelixite'
+    - minecraft:give %player% pixelmon:steelixite 1
+    give item: false
+  swampertite:
+    chance: 50.0
+    display:
+      material: PIXELMON_SWAMPERTITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Swampertite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lSwampertite'
+    - minecraft:give %player% pixelmon:swampertite 1
+    give item: false
+  tyranitarite:
+    chance: 50.0
+    display:
+      material: PIXELMON_TYRANITARITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Tyranitarite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lTyranitarite'
+    - minecraft:give %player% pixelmon:tyranitarite 1
+    give item: false
+  venusaurite:
+    chance: 50.0
+    display:
+      material: PIXELMON_VENUSAURITE
+      data: 0
+      amount: 1
+      glow: true
+      display: Venusaurite
+      lore:
+      - '§aChance: §e50.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&lVenusaurite'
+    - minecraft:give %player% pixelmon:venusaurite 1
+    give item: false
