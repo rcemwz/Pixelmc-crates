@@ -1,0 +1,104 @@
+Crate:
+  identifier: Casino
+  display: '&3&lCasino1 Crate'
+  block: GLASS_PANE
+  spin: CSGO
+  spin time: 2500
+Key:
+  name: §3§lCasino Key
+  item: PIXELMON_RUBY
+  glow: true
+  lore:
+  - §7Use this at the nearest
+  - §7Crate to open!
+  data: 0
+  amount: 1
+  unbreakable: false
+pouch:
+  item: ENDER_CHEST
+  glow: false
+  name: '&3&lCasino Pouch'
+  lore:
+  - '&7Click on this item to open pouch'
+hologram:
+  items:
+    key:
+      identifier: item_key
+      item: TRIPWIRE_HOOK
+      glow: true
+Prizes:
+  $0:
+    chance: 65.0
+    display:
+      material: PIXELMON_LEFTOVERS
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§l$You lose
+      lore:
+      - '§9Chance: §e60.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou lost'
+    - eco give %player% 0
+    give item: false
+  $400:
+    chance: 15.0
+    display:
+      material: PIXELMON_RELIC_COPPER
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§l$400
+      lore:
+      - '§9Chance: §e19.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l$400'
+    - eco give %player% 400
+    give item: false
+  $1600:
+    chance: 7.0
+    display:
+      material: PIXELMON_RELIC_SILVER
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§l$1600
+      lore:
+      - '§9Chance: §e7.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l$1600'
+    - eco give %player% 1600
+    give item: false
+  $4000:
+    chance: 3.0
+    display:
+      material: PIXELMON_RELIC_SILVER
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§l$4000
+      lore:
+      - '§9Chance: §e3.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l$4000'
+    - eco give %player% 4000
+    give item: false
+  $20000:
+    chance: 1.0
+    display:
+      material: PIXELMON_RELIC_GOLD
+      data: 0
+      amount: 1
+      glow: true
+      display: §b§l$20000
+      lore:
+      - '§9Chance: §e1.0'
+      unbreakable: false
+    commands:
+    - '[msg]&aYou have won &e&l$20000'
+    - eco give %player% 20000
+    give item: false
